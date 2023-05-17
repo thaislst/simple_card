@@ -1,0 +1,113 @@
+:root {
+  --dark: #372D3B;
+  --light: #FFFFFF;
+  --primary-500: #864293;
+  --primary-100: #F5EDF7;
+  --primary-200: #E5D8EA;
+  --card-width: 100vh;
+}
+
+*{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  font-family: 'Inter';
+  font-style: normal;
+  color: var(--dark);
+}
+
+body {
+  background-color: #0F0D13;
+}
+
+
+.box {
+  background-color: var(--light);
+  border-radius: 2.5rem;
+}
+
+.top-bar {
+  width: calc( 0.3 * var(--card-width));
+  height: 17px;
+
+  background: var(--primary-100);
+  border-radius: 999px;
+
+}
+
+
+span {
+  color: var(--primary-500);
+}
+
+.pill {
+  padding: 7.84309px 21.5685px;
+  max-width: 88%;
+  height: 31.37px;
+  background: var(--dark);
+  border-radius: 15.6862px;
+  color: var(--light);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+}
+
+.star-icon {
+  margin-right: 0.4rem;
+}
+
+
+
+
+
+
+input {
+  background: var(--primary-100);
+  border-radius: 1.5rem;
+  border: none;
+  width: 516.92px;
+  height: 64px;
+  padding: 1.125rem 1.81rem;
+
+}
+
+::placeholder {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.82rem;
+  color: var(--dark);
+}
+
+.car-infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.car-infos-driver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car {
+  position: absolute;
+  left: 13%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
